@@ -1,0 +1,13 @@
+h1, #Otsikko1, h2, #Otsikko2, h2, #Otsikko21 {
+  color: lightblue;
+  font-size: 50px;
+  font-family: 'Indie Flower';
+}
+body {
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 20px;
+}
+body {
+  background-color: black;
+}

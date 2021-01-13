@@ -1,0 +1,39 @@
+h1, #otsikko1 {
+  color: red;
+  font-size: 50px;
+  font-family: 'Indie Flower';
+  text-align: center;
+}
+
+#kpl1 {
+    font-family: 'Patrick Hand', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+  background-color: black;
+}
+#lisäys {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+#valikko {
+  color: red;
+  text-align: center;
+}
+
+.thin-white-border {
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
