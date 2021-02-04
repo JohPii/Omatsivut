@@ -1,7 +1,14 @@
-
-
 .otsikko {
   color: grey;
   font-size: 50px;
   font-family: 'Indie Flower';
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+#travel {
+  float: right;
+  margin: auto;
 }

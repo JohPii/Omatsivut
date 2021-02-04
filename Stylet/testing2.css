@@ -1,0 +1,24 @@
+.otsikko {
+  color: grey;
+  font-size: 50px;
+  font-family: 'Indie Flower';
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+
+.valinta {
+  background-color: #595959;
+  border-color: : red;
+  border-radius: 4px;
+  padding: 12px 10px;
+  width: 30%;
+}
+
+.content {
+  background-image: url(/Kuvat/bgpic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
