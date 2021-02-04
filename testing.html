@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 <html lang="fi" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Hassuja juttuja</title>
-      <link rel="stylesheet" href="Stylet\testingtyylit.css">
-  </head>
-  <body>
-<h1>Testing, testing...</h1>
-<p>
-  Teen tänne kaikenlaisia testejä ja juttuja, mitä harjoittelen koodaamaan. Tämä ei välttämättä ole aina ihan toiminnassa. Koodaamisessa käytän Atom -ohjelmaa.
-</p>
-<br>
-    <div class="penguin">
-  <div class="penguin-bottom">
-    <div class="right-hand"></div>
-    <div class="left-hand"></div>
-    <div class="right-feet"></div>
-    <div class="left-feet"></div>
-  </div>
-  <div class="penguin-top">
-    <div class="right-cheek"></div>
-    <div class="left-cheek"></div>
-    <div class="belly"></div>
-    <div class="right-eye">
-      <div class="sparkle"></div>
-    </div>
-    <div class="left-eye">
-      <div class="sparkle"></div>
-    </div>
-    <div class="blush-right"></div>
-    <div class="blush-left"></div>
-    <div class="beak-top"></div>
-    <div class="beak-bottom"></div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Stylet/kaikki.css">
+  <link rel="stylesheet" href="Stylet/testingtyylit.css">
+  <title>Hassuja juttuja</title>
+</head>
+<body>
+  <div class="background">
+  <div class="transbox">
+  <div class="header">
+    <h1>Testing, testing...</h1>
   </div>
 </div>
-<p>
-  Ja joo, fiksailen tuota pingiiviä ajan kanssa tässä sitten johonkin päin, että tuo teksti näkyis :D
-</p>
-<p>
-  edit: no nyt näkyy teksti, mutta ei ole tuo pingu niin kuin haluaisin, joten kattellaan myöhemmin taas asiaa :D
-</p>
-  </body>
+</div>
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="INFO.html">INFO</a></li>
+  <li><a href="harrastukset.html">Harrastukset</a></li>
+  <li><a href="kuvia.html">Kuvia</a></li>
+  <li><a href="matkustus.html">Matkustus</a></li>
+  <li class="dropdown">
+  <a href="javascript:void(0)" class="dropbtn">Testing</a>
+      <div class="dropdown-content">
+        <a class="active" href="testing.html">Testing 1</a>
+        <a href="testing2.html">Testing 2</a>
+      </div>
+</ul>
+</nav>
+  <div class="content">
+    <p>
+      Tätä kautta voit ottaa minuun yhteyttä ja lähettää sähköpostia. Loota toimii kun olet asentanut esim. tietokoneellesi sähköpostiohjelman.
+    </p>
+    <div class="container">
+      <form  action="mailto:johanna.m.piiroinen@gmail.com?subject=Feedback" method="post" enctype="text/plain">
+        <div class="row">
+          <div class="col-25">
+            <label for="name">Nimi</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="Name" name="Name" placeholder="Kirjoita tähän nimesi...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Sähköpostiosoite</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="" name="email" placeholder="Kirjoita tähän sähköpostiosoitteesi...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Ota minuun yhteyttä</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="viesti" placeholder="Kirjoita tähän viestisi..." rows="10" cols="50"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  </div>
+  <footer class="footer">
+    <p>Copyright © 2020-2021</p>
+  </footer>
+</body>
 </html>

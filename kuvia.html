@@ -2,29 +2,76 @@
 <html lang=fi dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Stylet\style4.css">
+    <link rel="stylesheet" href="Stylet/kaikki.css">
+    <link rel="stylesheet" href="Stylet/style4.css">
     <title>kuvia</title>
   </head>
   <body>
-    <h1>Kuvia maailmalta!</h1>
-    <hr>
-    <a href= "index.html">Koti</a> | <a href="INFO.html">INFO</a> | <a href="harrastukset.html">Harrastukseni</a> | <a href="kuvia.html">Kuvia</a>
-    <br>
-    <br>
-<img src="Kuvat\reissu1.JPG" alt="Isla Saona" width="300px">
-<br>
-<p>Isla Saona, Dominikaanien tasavalta. Tältä reissulta sain 40c kuumeen, oli kuumemmat oltavat itsellä kuin ilman lämpötilalla, joka oli +37c :D</p>
-<br>
-<img src="Kuvat\reissu2.JPG" alt="Viidakkotemppeli" width="300px">
-<p>Viidakkotemppeli Kambodzassa, huikea paikka! Miinanraivausvempele piipitti hieman kauempana, ei paljoa siis saanut poiketa "polulta" :D</p>
-<br>
-<img src="Kuvat\reissu2.1.JPG" alt="Ranta Koh Rongilla" width="300px">
-<p>Länsipuolen ranta Koh Rong -saarella Kambodzassa.</p>
-<br>
-<img src="Kuvat\reissu3.JPG" alt="Laiskiaiset" width="300px">
-<p>Laiskiaisten kohtaaminen Costa Ricassa Cahuitan luonnonpuistossa.</p>
+    <div class="background">
+    <div class="transbox">
+    <div class="header">
+    <h1 >Kuvia maailmalta!</h1>
+      </div>
+    </div>
+  </div>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="INFO.html">INFO</a></li>
+    <li><a href="harrastukset.html">Harrastukset</a></li>
+    <li><a class="active" href="kuvia.html">Kuvia</a></li>
+    <li><a href="matkustus.html">Matkustus</a></li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Testing</a>
+				<div class="dropdown-content">
+					<a href="testing.html">Testing 1</a>
+          <a href="testing2.html">Testing 2</a>
+				</div>
+  </ul>
+</nav>
+    <div class="content">
+    <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="Kuvat/reissu1.JPG">
+        <img src="Kuvat/reissu1.JPG" alt="Isla Saona" width="600" height="400">
+      </a>
+      <div class="desc">Isla Saona, Dominikaanien tasavalta.</div>
+    </div>
+  </div>
+    <div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="Kuvat/reissu2.1.JPG">
+<img src="Kuvat/reissu2.1.JPG" alt="Ranta Koh Rongilla" width="600" height="400">
+</a>
+<div class="desc">Koh Rong, Kambodza</div>
+</div>
+</div>
+  <div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="Kuvat/reissu3.JPG">
+<img src="Kuvat/reissu3.JPG" alt="Laiskiaiset" width="600" height="400">
+</a>
+<div class="desc">Laiskiaiset @Cahuitan luonnonpuisto, Costa Rica.</div>
+</div>
+  </div>
+  <div class="responsive">
+<div class="gallery">
+  <a target="_blank" href="Kuvat/reissu2.JPG">
+  <img src="Kuvat/reissu2.JPG" alt="Ranta Koh Rongilla" width="600" height="400">
+  </a>
+  <div class="desc">Viidakkotemppeli Beng Mealea, Kambodza.</div>
+  </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+</div>
+
+<footer class="footer">
+  <p>Copyright © 2020-2021</p>
+</footer>
 </body>
 </html>

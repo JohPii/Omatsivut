@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="fi" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Stylet\style1.css">
-    <title>Johannan sivut</title>
-  </head>
-  <body>
-    <h1 id="otsikko1">Tervetuloa Johannan sivuille!</h1>
-    <section id="valikko">
-    <a href="index.html">Koti</a> | <a href="INFO.html">INFO</a> | <a href="harrastukset.html">Harrastukseni</a> | <a href="kuvia.html">Kuvia</a> | <a href="testing.html">Testing</a>
-    </section>
-    <section id="kpl1">
-    <p><b>Laitan tänne kuvia, juttuja ja kaikkea mahdollista maan ja taivaan väliltä. Sivulla kerron itsestäni, harrastuksistani sekä tuon esille kuvia reissuistani ja elämästäni. Hyppää kyytiin!
-    </b>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Stylet/kaikki.css">
+  <link rel="stylesheet" href="Stylet/style1.css">
+  <title>Johannan sivut</title>
+</head>
+<body>
+  <div class="background">
+  <div class="transbox">
+  <div class="header">
+    <h1>Tervetuloa Johannan sivuille!</h1>
+  </div>
+</div>
+</div>
+<nav>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="INFO.html">INFO</a></li>
+    <li><a href="harrastukset.html">Harrastukset</a></li>
+    <li><a href="kuvia.html">Kuvia</a></li>
+    <li><a href="matkustus.html">Matkustus</a></li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Testing</a>
+				<div class="dropdown-content">
+					<a href="testing.html">Testing 1</a>
+          <a href="testing2.html">Testing 2</a>
+				</div>
+  </ul>
+</nav>
+  <br>
+  <br>
+  <div class="content">
+    <p>Hei vaan hei sinä kävijä! Kiva kun löysit sivuilleni! &#128151;</p>
+    <p>Laitan tänne kuvia, juttuja ja kaikkea mahdollista maan ja taivaan väliltä. Sivulla kerron itsestäni, harrastuksistani sekä tuon esille kuvia reissuistani ja elämästäni. Hyppää kyytiin!
     </p>
     <br>
     <p>
-    Harjoittelen näillä sivuilla koodaamaan ja tekemään front endiä. Wilma-mäyräkoirakin on samaa mieltä, että ehkä on syytä harjoitella. Ja jos huomaat, että jokin ei toimi näillä sivuilla niin laita minulle siitä ilmoitusta, kiitos! :)
-    </section>
+      Harjoittelen näillä sivuilla koodaamaan ja tekemään front endiä. Wilma-mäyräkoirakin on samaa mieltä, että ehkä on syytä harjoitella. Ja jos huomaat, että jokin ei toimi näillä sivuilla niin laita minulle siitä ilmoitusta, kiitos! Testing-kohdasta löytyy palauteboxi.
     </p>
-    <img class="thin-white-border center" src="Kuvat\wilma1.jpg" alt="Wimmu" width="300px">
-    <br>
-    <br>
-    <hr>
-    <section id="lisäys">
-    <address>
-    <br>
-    Copyright © 2020-2021 - Kaikki oikeudet pidätetään -
-    <br>
-    Päivitetty - 13.01.2021 -
-    <br>
-    Minut tavoittaa sähköpostilla: <a href="mailto:johanna.m.piiroinen@gmail.com?subject=feedback">Johanna</a>
-  </address>
-</section>
-    <br>
-  </body>
+  </div>
+  <img class="thin-white-border center" src="Kuvat/wilma1.jpg" alt="Wimmu" width="200px">
+  <br>
+  <br>
+  <footer class="footer">
+    <p>Copyright © 2020-2021</p>
+  </footer>
+</body>
 </html>

@@ -2,16 +2,39 @@
 <html lang=fi dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Stylet\style2.css">
+    <link rel="stylesheet" href="Stylet/kaikki.css">
+    <link rel="stylesheet" href="Stylet/style2.css">
     <title>Harrastukseni</title>
   </head>
   <body>
-    <h1 id="Otsikko1">Tervetuloa ihmettelemään harrastuksiani!</h1>
-    <hr>
-    <a href= "index.html">Koti</a> | <a href="INFO.html">INFO</a> | <a href="harrastukset.html">Harrastukseni</a> | <a href="kuvia.html">Kuvia</a>
+    <div class="background">
+    <div class="transbox">
+    <div class="header">
+    <h1>Harrastuksia!</h1>
+      </div>
+    </div>
+  </div>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="INFO.html">INFO</a></li>
+    <li><a class="active" href="harrastukset.html">Harrastukset</a></li>
+    <li><a href="kuvia.html">Kuvia</a></li>
+    <li><a href="matkustus.html">Matkustus</a></li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Testing</a>
+				<div class="dropdown-content">
+					<a href="testing.html">Testing 1</a>
+          <a href="testing2.html">Testing 2</a>
+				</div>
+  </ul>
+  </nav>
+
+<div class="content">
     <p>Luettelen aluksi harrastuksiani, joita olen viime vuosina harrastanut:
       <ul>
         <li>Matkustaminen</li>
@@ -22,11 +45,11 @@
       </ul>
     </p>
       <p>
-        Näistä edellä mainituista matkustaminen on nyt tauolla ollut pidemmän aikaa, johtuen vallitsevasta tilanteessa. Tänä vuonna kävin vain Virossa yöpymisreissulla kesällä, mutta aiempana vuonna kävin Norjassa, Suomen Lapissa (ensimmäistä kertaa), Ruotsissa sekä Ukrainassa ja pitkäaikaisessa haavekohteessa Tsernobylissa. Pääsin myös ensimmäistä kertaa työmatkalle, joka suuntautui Erasmus-hankkeen kautta Belgiaan ja siellä Brysseliin.
+        Näistä edellä mainituista matkustaminen on nyt tauolla ollut pidemmän aikaa, johtuen vallitsevasta tilanteessa. Viime kesänä kävin vain Virossa yöpymisreissulla kesällä, mutta aiempana vuonna kävin Norjassa, Suomen Lapissa (ensimmäistä kertaa), Ruotsissa sekä Ukrainassa ja pitkäaikaisessa haavekohteessa Tsernobylissa. Pääsin myös ensimmäistä kertaa työmatkalle, joka suuntautui Erasmus-hankkeen kautta Belgiaan ja siellä Brysseliin.
         <br>
         Luettelen kuitenkin vielä lempikohteita sekä kohteita, joihin haluaisin matkustaa sitten kun se on taas mahdollista. Listat eivät ole missään "paremmuusjärjestyksessä".
     </p>
-    <h2 id="Otsikko2">Lempikohteita, joissa olen jo käynyt:</h2>
+    <h2 class="otsikko">Lempikohteita, joissa olen jo käynyt:</h2>
     <ol>
       <li>Costa Rica</li>
       <li>Panama</li>
@@ -38,10 +61,11 @@
       <li>Hong Kong</li>
       <li>Kreikka</li>
       <li>Kaikki turkoosin veden ja valkoisen hiekan hiekkarannat</li>
-    </<ol>
-      <img src="Kuvat\kreikka1.jpg" alt="Kreikka" width="300px">
+    </ol>
+      <br>
+      <img src="Kuvat/kreikka1.jpg" alt="Kreikka" width="300px">
 
-      <h2 id="Otsikko21">Haluaisin matkustaa seuraaviin kohteisiin/paikkoihin:</h2>
+      <h2 class="otsikko">Haluaisin matkustaa seuraaviin kohteisiin/paikkoihin:</h2>
       <ul>
         <li>Islanti</li>
         <li>Japani</li>
@@ -51,18 +75,22 @@
         <li>Mexico</li>
         <li>Irlanti - lähinnä katsomaan Game of Thrones -paikkoja</li>
       </ul>
+      <br>
       <p>
         Maailmassa on niin paljon nähtävää ja koettavaa, että haluaisin käydä hieman joka puolella näkemässä maiden kulttuureita, tapoja ja kauniita paikkoja. Jokaiselta reissulta on silti ollut kiva palata takaisin kotiin: osaa arvostaa kun esim. hanasta tulee lämmintä ja erityisesti puhdasta juomakelpoista vettä, ei tarvitse taistella tilastaan rottien ja hiirien ja niiden jätösten kanssa ennen kuin menee nukkumaan. Onhan Suomi melko puhdas maa verrattuna siihen mitä jo muualla olen nähnyt ja kokenut. Myös naisia ja lapsia täällä arvostetaan onneksi paljon paremmin kuin monessa muussa valtiossa vallitsevan uskonnon vuoksi. Monessa kohteessa luonto ja sen monipuolisuus sekä erilaisuus verrattuna Suomeen on korostunut itselleni. Esim. Costa Rican luonnonpuistossa saattoi yhtäkkiä törmätä rannalla laiskiaiseen tai pienellä kävelypolulla pesukarhuihin.
       </p>
-      <p>Moni kohde on tehnyt minuun syvän vaikutuksen ja moneen paikkaan haluaisin matkustaa uudestaan. Yksi suurimpia kokemuksia on ollut tutustua Tsernobyliin Ukrainassa, jonne pääsemisestä haaveilin tosiaan monta vuotta. Ukrainassa pääsee myös tutustumaan hieman "ei-niin-turistikohteisiin" hyödyntämällä <a href="https://www.urbextour.com">Urbex-tourin</a>
+      <p>Moni kohde on tehnyt minuun syvän vaikutuksen ja moneen paikkaan haluaisin matkustaa uudestaan. Yksi suurimpia kokemuksia on ollut tutustua Tsernobyliin Ukrainassa, jonne pääsemisestä haaveilin tosiaan monta vuotta. Ukrainassa pääsee myös tutustumaan hieman "ei-niin-turistikohteisiin" hyödyntämällä <a href="https://www.urbextour.com" target="_blank">Urbex-tourin</a>
          järjestämiä pieniä tutkimusreissuja.</p>
          <p>
-           Muita todella käymisen arvoisia paikkoja ovat olleet mm. <a href="https://en.wikipedia.org/wiki/Killing_Fields">Killing Fields</a> ja <a href="https://en.wikipedia.org/wiki/Beng_Mealea">viidakkotemppeli</a> Kambodzassa, Auswitch Puolassa, <a href="https://museumofsenses.ro/en">Museum of Senses</a> Romaniassa. 
+           Muita todella käymisen arvoisia paikkoja ovat olleet mm. <a href="https://en.wikipedia.org/wiki/Killing_Fields" target="_blank">Killing Fields</a> ja <a href="https://en.wikipedia.org/wiki/Beng_Mealea" target="_blank">viidakkotemppeli</a> Kambodzassa, Auswitch Puolassa, <a href="https://museumofsenses.ro/en" target="_blank">Museum of Senses</a> Romaniassa.
          </p>
 
          <p>
-           Twerk-harrastus on uusi tuttuvuus minulle tältä syksyltä. Se osottautui haastavammaksi ja paljon raskaammaksi lajiksi kuin koskaan ajattelinkaan. Mutta on se silti aika hauskaa ja kivaa ollutkin! Hiki lentää ja reidet huutaa apua! :D Olen myös salaa (ei enää niin salaa) harjoitellut muutamia shuffle-liikkeitä kotona, mutta siinä hommassa meinaa vammapolvi kipeytyä.
+           Twerk-harrastus on uusi tuttavuus minulle tältä syksyltä. Se osottautui haastavammaksi ja paljon raskaammaksi lajiksi kuin koskaan ajattelinkaan. Mutta on se silti aika hauskaa ja kivaa ollutkin! Hiki lentää ja reidet huutaa apua! :D Olen myös salaa (ei enää niin salaa) harjoitellut muutamia shuffle-liikkeitä kotona, mutta siinä hommassa meinaa vammapolvi kipeytyä.
          </p>
-         <a href= "index.html">Koti</a> | <a href="INFO.html">INFO</a> | <a href="harrastukset.html">Harrastukseni</a> | <a href="kuvia.html">Kuvia</a>
+         </div>
+         <footer class="footer">
+           <p>Copyright © 2020-2021</p>
+         </footer>
   </body>
 </html>
